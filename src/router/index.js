@@ -1,5 +1,5 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import Vue from "vue"
+import VueRouter from "vue-router"
 import MyHome from "@/views/MyHome"
 
 Vue.use(VueRouter);
@@ -11,12 +11,20 @@ const routes = [
     component: MyHome
   },
   {
+    path: "/about",
+    name: "About",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/About.vue")
+  },
+  {
     path: "/vuejs-components",
     name: "VuejsComponents",
 
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/VuejsComponents.vue")
+        import(/* webpackChunkName: "vuejs-components" */ "../views/VuejsComponents.vue")
   }
+
 ];
 
 const router = new VueRouter({
