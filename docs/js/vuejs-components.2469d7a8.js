@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["vuejs-components"],{"72c6":function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e.$createElement;e._self._c;return e._m(0)},s=[function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"home"},[t("h4",[e._v("Welcome to Vuejs components")]),t("ul",[t("li"),t("li")])])}],c={name:"VueComponents",components:{}},l=c,u=t("2877"),a=Object(u["a"])(l,o,s,!1,null,null,null);n["default"]=a.exports}}]);
+//# sourceMappingURL=vuejs-components.2469d7a8.js.map
