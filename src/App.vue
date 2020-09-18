@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/about">Vuejs-components</router-link> |
+      <router-link to="/vuejs-components">Vuejs-components</router-link> |
       <router-link to="/">Min-gb</router-link>
     </div>
     <router-view />
