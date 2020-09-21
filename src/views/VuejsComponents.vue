@@ -1,12 +1,10 @@
 <template>
   <div class="home">
     <h4>Welcome to Vuejs components</h4>
-    <ul>
-      <li>
+    <div>
         <ExampleDataTableVC></ExampleDataTableVC>
-      </li>
-      <li></li>
-    </ul>
+    </div>
+
   </div>
 </template>
 
